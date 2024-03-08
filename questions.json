@@ -1,0 +1,635 @@
+{
+  "highscore": {
+    "highscore": 40
+  },
+  "questions": [
+    {
+      "topic": "React",
+      "question": "Which is the most popular JavaScript framework?",
+      "options": ["Angular", "React", "Svelte", "Vue"],
+      "correctOption": 1,
+      "points": 10,
+      "id": "0f69"
+    },
+    {
+      "topic": "React",
+      "question": "Which company invented React?",
+      "options": ["Google", "Apple", "Netflix", "Facebook"],
+      "correctOption": 3,
+      "points": 10,
+      "id": "3cbe"
+    },
+    {
+      "topic": "React",
+      "question": "What's the fundamental building block of React apps?",
+      "options": ["Components", "Blocks", "Elements", "Effects"],
+      "correctOption": 0,
+      "points": 10,
+      "id": "be61"
+    },
+    {
+      "topic": "React",
+      "question": "What's the name of the syntax we use to describe the UI in React components?",
+      "options": ["FBJ", "Babel", "JSX", "ES2015"],
+      "correctOption": 2,
+      "points": 10,
+      "id": "ca04"
+    },
+    {
+      "topic": "React",
+      "question": "How does data flow naturally in React apps?",
+      "options": [
+        "From parents to children",
+        "From children to parents",
+        "Both ways",
+        "The developers decides"
+      ],
+      "correctOption": 0,
+      "points": 10,
+      "id": "9e9c"
+    },
+    {
+      "topic": "React",
+      "question": "How to pass data into a child component?",
+      "options": ["State", "Props", "PropTypes", "Parameters"],
+      "correctOption": 1,
+      "points": 10,
+      "id": "4738"
+    },
+    {
+      "topic": "React",
+      "question": "When to use derived state?",
+      "options": [
+        "Whenever the state should not trigger a re-render",
+        "Whenever the state can be synchronized with an effect",
+        "Whenever the state should be accessible to all components",
+        "Whenever the state can be computed from another state variable"
+      ],
+      "correctOption": 3,
+      "points": 30,
+      "id": "1f2e"
+    },
+    {
+      "topic": "React",
+      "question": "What triggers a UI re-render in React?",
+      "options": [
+        "Running an effect",
+        "Passing props",
+        "Updating state",
+        "Adding event listeners to DOM elements"
+      ],
+      "correctOption": 2,
+      "points": 20,
+      "id": "a99b"
+    },
+    {
+      "topic": "React",
+      "question": "When do we directly \"touch\" the DOM in React?",
+      "options": [
+        "When we need to listen to an event",
+        "When we need to change the UI",
+        "When we need to add styles",
+        "Almost never"
+      ],
+      "correctOption": 3,
+      "points": 20,
+      "id": "b893"
+    },
+    {
+      "topic": "React",
+      "question": "In what situation do we use a callback to update state?",
+      "options": [
+        "When updating the state will be slow",
+        "When the updated state is very data-intensive",
+        "When the state update should happen faster",
+        "When the new state depends on the previous state"
+      ],
+      "correctOption": 3,
+      "points": 30,
+      "id": "a521"
+    },
+    {
+      "topic": "React",
+      "question": "If we pass a function to useState, when will that function be called?",
+      "options": [
+        "On each re-render",
+        "Each time we update the state",
+        "Only on the initial render",
+        "The first time we update the state"
+      ],
+      "correctOption": 2,
+      "points": 30,
+      "id": "6bdd"
+    },
+    {
+      "topic": "React",
+      "question": "Which hook to use for an API request on the component's initial render?",
+      "options": ["useState", "useEffect", "useRef", "useReducer"],
+      "correctOption": 1,
+      "points": 10,
+      "id": "4f0c"
+    },
+    {
+      "topic": "React",
+      "question": "Which variables should go into the useEffect dependency array?",
+      "options": [
+        "Usually none",
+        "All our state variables",
+        "All state and props referenced in the effect",
+        "All variables needed for clean up"
+      ],
+      "correctOption": 2,
+      "points": 30,
+      "id": "72fe"
+    },
+    {
+      "topic": "React",
+      "question": "An effect will always run on the initial render.",
+      "options": [
+        "True",
+        "It depends on the dependency array",
+        "False",
+        "In depends on the code in the effect"
+      ],
+      "correctOption": 0,
+      "points": 30,
+      "id": "7376"
+    },
+    {
+      "topic": "React",
+      "question": "When will an effect run if it doesn't have a dependency array?",
+      "options": [
+        "Only when the component mounts",
+        "Only when the component unmounts",
+        "The first time the component re-renders",
+        "Each time the component is re-rendered"
+      ],
+      "correctOption": 3,
+      "points": 20,
+      "id": "3d6a"
+    },
+
+    {
+      "topic": "Js",
+      "question": "Javascript is an _______ language?",
+      "options": [
+        "Object-Oriented",
+        "Object-Based",
+        "Procedural",
+        "None of the above"
+      ],
+      "correctOption": 0,
+      "points": 10,
+      "id": "0f61"
+    },
+    {
+      "topic": "Js",
+      "question": "Which of the following keywords is used to define a variable in Javascript?",
+      "options": ["var", "let", "Both A and B", "None of the above"],
+      "correctOption": 2,
+      "points": 10,
+      "id": "3cb2"
+    },
+    {
+      "topic": "Js",
+      "question": "Which of the following methods is used to access HTML elements using Javascript?",
+      "options": [
+        "getElementbyId()",
+        "getElementByClassName()",
+        "Both A and B",
+        "None of the above"
+      ],
+      "correctOption": 2,
+      "points": 10,
+      "id": "be63"
+    },
+    {
+      "topic": "Js",
+      "question": "Which of the following methods can be used to display data in some form using Javascript?",
+      "options": [
+        "document.write()",
+        "console.log()",
+        "window.alert()",
+        "All of the above"
+      ],
+      "correctOption": 3,
+      "points": 10,
+      "id": "ca05"
+    },
+    {
+      "topic": "Js",
+      "question": "How can a datatype be declared to be a constant type?",
+      "options": ["const", "var", "let", "constant"],
+      "correctOption": 0,
+      "points": 10,
+      "id": "9e96"
+    },
+    {
+      "topic": "Js",
+      "question": "What keyword is used to check whether a given property is valid or not?",
+      "options": ["in", "is in", "exists", "lies"],
+      "correctOption": 0,
+      "points": 10,
+      "id": "4737"
+    },
+    {
+      "topic": "Js",
+      "question": "What keyword is used to declare an asynchronous function in Javascript?",
+      "options": ["async", "await", "setTimeout", "None of the above"],
+      "correctOption": 0,
+      "points": 30,
+      "id": "1f28"
+    },
+    {
+      "topic": "Js",
+      "question": "What is the use of the <noscript> tag in Javascript?",
+      "options": [
+        "The contents are displayed by non-JS based browsers",
+        "Clears all the cookies and cache",
+        "Both A and B",
+        "None of the above"
+      ],
+      "correctOption": 0,
+      "points": 20,
+      "id": "a999"
+    },
+    {
+      "topic": "Js",
+      "question": "When an operator’s value is NULL, the typeof returned by the unary operator is:",
+      "options": ["Boolean", "Undefined", "Object", "Integer"],
+      "correctOption": 2,
+      "points": 20,
+      "id": "b894"
+    },
+    {
+      "topic": "Js",
+      "question": "How to stop an interval timer in Javascript?",
+      "options": [
+        "clearInterval",
+        "clearTimer",
+        "intervalOver",
+        "None of the above"
+      ],
+      "correctOption": 0,
+      "points": 30,
+      "id": "a522"
+    },
+    {
+      "topic": "Js",
+      "question": "How are objects compared when they are checked with the strict equality operator?",
+      "options": [
+        "The contents of the objects are compared",
+        "Their references are compared",
+        "Both A and B",
+        "None of the above"
+      ],
+      "correctOption": 1,
+      "points": 30,
+      "id": "6bd2"
+    },
+    {
+      "topic": "Js",
+      "question": "Which of the following are closures in Javascript?",
+      "options": ["Variables", "Functions", "Objects", "All of the above"],
+      "correctOption": 3,
+      "points": 10,
+      "id": "4f05"
+    },
+    {
+      "topic": "Js",
+      "question": "What does … operator do in JS?",
+      "options": [
+        "It is used to spread iterables to individual elements",
+        "It is used to describe a datatype of undefined type",
+        "No such operator exists",
+        "None of the above"
+      ],
+      "correctOption": 0,
+      "points": 30,
+      "id": "72f2"
+    },
+    {
+      "topic": "Js",
+      "question": "How do we write a comment in javascript?",
+      "options": ["/* */", "//", "#", "$ $"],
+      "correctOption": 1,
+      "points": 30,
+      "id": "7374"
+    },
+    {
+      "topic": "Js",
+      "question": "Which of the following is not a Javascript framework?",
+      "options": ["Node", "Vue", "React", "Cassandra"],
+      "correctOption": 3,
+      "points": 20,
+      "id": "3d62"
+    },
+
+    {
+      "topic": "Css",
+      "question": "The full form of CSS is:",
+      "options": [
+        "Cascading Style Sheets",
+        "Coloured Special Sheets",
+        "Color and Style Sheets",
+        "None of the above"
+      ],
+      "correctOption": 0,
+      "points": 10,
+      "id": "0f69"
+    },
+    {
+      "topic": "Css",
+      "question": "What type of CSS is generally recommended for designing large web pages?",
+      "options": ["Inline", "Internal", "External", "None of the above"],
+      "correctOption": 2,
+      "points": 10,
+      "id": "3cbe"
+    },
+    {
+      "topic": "Css",
+      "question": "Which HTML tag is used to declare internal CSS?",
+      "options": ["<style>", "<link>", "<script>", "None of the above"],
+      "correctOption": 0,
+      "points": 10,
+      "id": "be61"
+    },
+    {
+      "topic": "Css",
+      "question": "How can we select an element with a specific ID in CSS?",
+      "options": ["#", ".", "^", "None of the above"],
+      "correctOption": 0,
+      "points": 10,
+      "id": "ca04"
+    },
+    {
+      "topic": "Css",
+      "question": "How can we select an element with a specific Class in CSS?",
+      "options": ["#", ".", "^", "None of the above"],
+      "correctOption": 1,
+      "points": 10,
+      "id": "9e9c"
+    },
+    {
+      "topic": "Css",
+      "question": "How can we write comments in CSS?",
+      "options": ["/* */", "//", "#", "All of the above"],
+      "correctOption": 0,
+      "points": 10,
+      "id": "4738"
+    },
+    {
+      "topic": "Css",
+      "question": "Which of the following are valid CSS position property values?",
+      "options": ["static", "relative", "fixed", "All of the above"],
+      "correctOption": 3,
+      "points": 30,
+      "id": "1f2e"
+    },
+    {
+      "topic": "Css",
+      "question": "Can negative values be allowed in padding property?",
+      "options": ["Yes", "No", "Depends on property", "None of the above"],
+      "correctOption": 1,
+      "points": 20,
+      "id": "a99b"
+    },
+    {
+      "topic": "Css",
+      "question": "The CSS property used to specify the transparency of an element is?",
+      "options": ["Opacity", "visibility", "filter", "None of the above"],
+      "correctOption": 0,
+      "points": 20,
+      "id": "b893"
+    },
+    {
+      "topic": "Css",
+      "question": "Which of the following property specifies the look and design of an outline?",
+      "options": [
+        "outline-style",
+        "outline",
+        "outline-font",
+        "None of the above"
+      ],
+      "correctOption": 0,
+      "points": 30,
+      "id": "a521"
+    },
+    {
+      "topic": "Css",
+      "question": "Which CSS property is used to specify different border styles?",
+      "options": [
+        "border-style",
+        "border",
+        "Both A and B",
+        "None of the above"
+      ],
+      "correctOption": 0,
+      "points": 30,
+      "id": "6bdd"
+    },
+    {
+      "topic": "Css",
+      "question": "How can we specify the spacing between each letter in a text in CSS?",
+      "options": [
+        "alpha-spacing",
+        "letter-spacing",
+        "letter-spacing",
+        "None of the above"
+      ],
+      "correctOption": 1,
+      "points": 10,
+      "id": "4f0c"
+    },
+    {
+      "topic": "Css",
+      "question": "We can make rounded borders around elements using which CSS element?",
+      "options": [
+        "border-collapse",
+        "border-round",
+        "border-radius",
+        "None of the above"
+      ],
+      "correctOption": 2,
+      "points": 30,
+      "id": "72fe"
+    },
+    {
+      "topic": "Css",
+      "question": "Which of the following is the correct way to select all h1 headers in a div element?",
+      "options": ["div h1", "div-h1", "h1", "None of the above"],
+      "correctOption": 0,
+      "points": 30,
+      "id": "7376"
+    },
+    {
+      "topic": "Css",
+      "question": "Which of the following are valid ways to represent a colour in CSS?",
+      "options": [
+        "A valid color name",
+        "RGB values",
+        "HEX values",
+        "All of the above"
+      ],
+      "correctOption": 3,
+      "points": 20,
+      "id": "3d6a"
+    },
+
+    {
+      "topic": "Html",
+      "question": "What does the abbreviation HTML stand for?",
+      "options": [
+        "HyperText Markup Language.",
+        "HighText Markup Language.",
+        "HyperText Markdown Language.",
+        "None of the above"
+      ],
+      "correctOption": 0,
+      "points": 10,
+      "id": "0f69"
+    },
+    {
+      "topic": "Html",
+      "question": "What is the smallest header in HTML by default?",
+      "options": ["h1", "h2", "h6", "h4"],
+      "correctOption": 2,
+      "points": 10,
+      "id": "3cbe"
+    },
+    {
+      "topic": "Html",
+      "question": "What are the types of lists available in HTML?",
+      "options": [
+        "Ordered,Unordered Lists",
+        "Bulleted,Numbered Lists",
+        "Named,Unnamed Lists",
+        "None of the above"
+      ],
+      "correctOption": 0,
+      "points": 10,
+      "id": "be61"
+    },
+    {
+      "topic": "Html",
+      "question": "How to create an ordered list in HTML?",
+      "options": ["<ul>", "<ol>", "<href>", "<b>"],
+      "correctOption": 1,
+      "points": 10,
+      "id": "ca04"
+    },
+    {
+      "topic": "Html",
+      "question": "We enclose HTML tags within?",
+      "options": ["{ }", "< >", "!!", "None of the above"],
+      "correctOption": 1,
+      "points": 10,
+      "id": "9e9c"
+    },
+    {
+      "topic": "Html",
+      "question": "What is the effect of the <b> tag?",
+      "options": [
+        "It converts the text within it to bold font",
+        "It is used to write black-colored font",
+        "It is used to change the font size",
+        "None of the above"
+      ],
+      "correctOption": 0,
+      "points": 10,
+      "id": "4738"
+    },
+    {
+      "topic": "Html",
+      "question": "Which of the following tags doesn’t require a closing tag?",
+      "options": ["<br>", "<hr>", "Both A and B", "None of the above"],
+      "correctOption": 2,
+      "points": 30,
+      "id": "1f2e"
+    },
+    {
+      "topic": "Html",
+      "question": "What are the attributes used to change the size of an image?",
+      "options": [
+        "Width and height",
+        "Big and Small",
+        "Top and bottom",
+        "None of the above"
+      ],
+      "correctOption": 0,
+      "points": 20,
+      "id": "a99b"
+    },
+    {
+      "topic": "Html",
+      "question": "Which attribute is used to provide a unique name to an HTML element?",
+      "options": ["id", "class", "types", "None of the above"],
+      "correctOption": 0,
+      "points": 20,
+      "id": "b893"
+    },
+    {
+      "topic": "Html",
+      "question": "Which of the following properties is used to change the font of text?",
+      "options": [
+        "font-family",
+        "font-size",
+        "text-align",
+        "None of the above"
+      ],
+      "correctOption": 0,
+      "points": 30,
+      "id": "a521"
+    },
+    {
+      "topic": "Html",
+      "question": "Apart from <i> tag, which of the following tag is used to render a text in italics?",
+      "options": ["<em>", "<state>", "<b>", "None of the above"],
+      "correctOption": 0,
+      "points": 30,
+      "id": "6bdd"
+    },
+    {
+      "topic": "Html",
+      "question": "What is the correct syntax to write an HTML comment?",
+      "options": ["<!--Comment-->", "//Comment", "#Comment", "/*Comment*/"],
+      "correctOption": 0,
+      "points": 10,
+      "id": "4f0c"
+    },
+    {
+      "topic": "Html",
+      "question": "What are the types of unordered lists in HTML?",
+      "options": [
+        "Circle,square,disc",
+        "Triangle,Square,disc",
+        "Triangle,Circle,Disc",
+        "All of the above"
+      ],
+      "correctOption": 0,
+      "points": 30,
+      "id": "72fe"
+    },
+    {
+      "topic": "Html",
+      "question": "Which property is used to set border colors in HTML?",
+      "options": [
+        "border-color",
+        "border",
+        "Both A and B",
+        "None of the above"
+      ],
+      "correctOption": 1,
+      "points": 30,
+      "id": "7376"
+    },
+    {
+      "topic": "Html",
+      "question": "Which HTML tag is called the root element of an HTML document?",
+      "options": ["<html>", "<body>", "<title>", "<head>"],
+      "correctOption": 0,
+      "points": 20,
+      "id": "3d6a"
+    }
+  ]
+}
